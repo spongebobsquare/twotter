@@ -1,0 +1,113 @@
+@charset "utf-8";
+
+header{
+    width: 100%;
+    height: 50px;
+    background-color: #059c69;
+    padding: 10px 30px;
+
+    font-size: 25px;
+    line-height: 50px;
+    /*color: white;*/
+}
+
+header a{
+    color: white;
+    font-weight: bold;
+}
+
+header a:hover{
+    text-decoration: none;
+}
+
+#menu{
+    width: 90%;
+    /*height: 50px;*/
+    margin: 0 auto;
+    padding: 30px 10px;
+    background-color: rgba(235, 245, 236, 0.45);
+}
+
+#menu .menu-box{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    margin: 0 auto;
+}
+
+#menu .menu-box div.lab{
+    width: 21.5%;
+    /*margin-right: 10px;*/
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 30px;
+    box-shadow: 2px 2px 2px #aaa;
+
+    background-color: #85c6b3;
+}
+
+#menu .menu-box div#lab4{
+    margin-right: 0;
+}
+
+#menu .menu-box div.lab h3{
+    height:40px;
+    width: 50%;
+    margin: 0 auto;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    line-height: 40px;
+
+
+    color: #fff;
+    /*text-decoration: bold;*/
+    text-align: center;
+    font-weight: bold;
+    /*background-color: #059c69;*/
+}
+
+#menu .menu-box div.lab ul{
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*justify-content: space-around;*/
+    list-style: none;
+    width: 100%;
+    margin: 15px auto;
+
+    background-color: #f3f3f3;
+    border-radius: 10px;
+    /*padding-left: 20px;*/
+}
+
+#menu .menu-box div.lab ul li{
+    /*float: left;*/
+    /*margin-right: 100px;*/
+    height: 30px;
+    line-height: 30px;
+    padding: 5px 15px;
+    /*padding-bottom: 10px;*/
+    /*border-radius: 5px;*/
+    border-bottom: 1px solid #ddd;
+    /*background: darkgoldenrod;*/
+
+    font-size: 14px;
+}
+
+#menu .menu-box div.lab ul li:last-child{
+    border-bottom: 0;
+    /*padding-bottom: 0px;*/
+}
+
+#menu .menu-box div.lab ul li a{
+    display: block;
+    color: #111;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: keep-all;
+    white-space: nowrap;
+}
+
+#menu .menu-box div.lab ul li a:hover{
+    text-decoration: none;
+    color: #85c6b3;
+}
